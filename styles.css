@@ -1,3 +1,80 @@
 *{
     box-sizing: bording-box;
     }
+body{
+    margin: 0;
+}
+h1{
+    text-align: center;
+}
+header{
+    background-color: #e1a663;
+}
+#header-container{
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+ 
+}
+button{
+
+    padding: 10px;
+    margin-bottom: 5px;
+
+}
+.buttons{
+    padding-top: 15px;
+    display: flex;
+    flex-direction: column;
+
+}
+h2{
+    color:#120323
+}
+main{
+    align-items: center;
+}
+
+main figure img{
+    border: solid 5px purple;
+    width: 100%;
+}
+figcaption{
+    margin: 10px;
+}
+
+
+@media screen and (min-width: 769px) and (max-width:1000px) {
+
+header{
+    display: flex;
+    flex-direction: column;
+    
+    width: 200px;
+    padding: 20px;
+    gap: 10px;
+}
+main {
+    display: flex;
+    flex: 1;
+    padding: 20px;
+}
+#hero {
+    flex: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#content {
+    flex: 3;
+    padding: 20px;
+}
+
+    }
+    
+  
+    
