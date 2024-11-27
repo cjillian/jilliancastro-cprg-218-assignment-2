@@ -2,7 +2,7 @@ intro.addEventListener('click',function(){
     console.log("MAMMA MIA HERE WE GO AGAIN");
 	document.getElementById('hero').src="imgs/intro.png";
     document.getElementById('title').innerHTML ="Who Is ABBA?"
-    document.getElementById('description').innerHTML 
+    document.getElementById('description').innerHTML ="ABBA is a legendary pop group from Sweden. They became super famous in the 1970s and are known for their catchy, feel-good songs like Dancing Queen, Mamma Mia, and Take a Chance on Me. Their music blends upbeat disco vibes with emotional lyrics, and they were known for their glam outfits and fun performances. Even decades later, their songs still get everyone singing along and feeling nostalgic!"
 })
 member1.addEventListener('click',function(){
     console.log("MAMMA MIA HERE WE GO AGAIN");
@@ -12,7 +12,7 @@ member1.addEventListener('click',function(){
 })
 member2.addEventListener('click',function(){
     console.log("MAMMA MIA HERE WE GO AGAIN");
-	document.getElementById('hero').src="imgs/member1.png";
+	document.getElementById('hero').src="imgs/member2.png";
     document.getElementById('title').innerHTML ="Björn Ulvaeus";
     document.getElementById('description').innerHTML ="Björn Ulvaeus is the creative mastermind behind many of ABBA’s songs, writing lyrics and playing guitar. He’s a witty and clever songwriter, known for crafting stories in music that range from heartfelt to fun. Before ABBA, he was in a folk group, and his partnership with Benny Andersson became the foundation of ABBA’s sound. Björn was also known for his calm, thoughtful personality, balancing the group’s dynamic." 
 })
