@@ -1,7 +1,9 @@
 *{
     box-sizing: bording-box;
+    font-family: 'Sarala', sans-serif;
     }
 body{
+    background-color: #FFF0D9;
     margin: 0;
 }
 h1{
@@ -9,9 +11,9 @@ h1{
 }
 header{
     background-color: #e1a663;
+    color: white;
 }
 #header-container{
-  
     display: flex;
     justify-content: center;
     align-items: center;
@@ -19,26 +21,34 @@ header{
  
 }
 button{
-
+    font-size: 15px;
     padding: 10px;
     margin-bottom: 5px;
-
+    background-color: #1D3746;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
 }
 .buttons{
-    padding-top: 15px;
     display: flex;
     flex-direction: column;
-
+    padding: 20px;  
 }
-h2{
-    color:#120323
+button:hover {
+    background-color:#698796;
+}
+#title{
+    color: #1D3746;
 }
 main{
     align-items: center;
 }
 
 main figure img{
-    border: solid 5px purple;
+    border: solid 5px #1D3746;
     width: 100%;
 }
 figcaption{
@@ -47,36 +57,72 @@ figcaption{
 
 
 @media screen and (min-width: 769px) and (max-width:1000px) {
-
+body{
+    display: flex;
+   
+}
+#header-container{
+    height: 100vh;
+}
 header{
     display: flex;
     flex-direction: column;
-    width: 200px;
-    padding: 200px;
-    gap: 10px;
+    gap: 5px;
 }
-.buttons{
-    margin-bottom: 100px;
-}
-main {
-    display: flex;
-    flex: 1;
-    padding: 20px;
-}
-#hero {
-    flex: 2;
+
+#hero{
+    margin-top: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
-
-#content {
-    flex: 3;
-    padding: 20px;
+figcaption{
+    padding: 10px;
 }
-
+}
+@media screen and (min-width: 1001px) {
+    h1{
+        text-align: center;
     }
+    header{
+        background-color: #e1a663;
+    }
+    #header-container{
+      
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+     
+    }
+    .buttons{
+        padding-top: 15px;
+        padding-bottom: 15px;
+        display: flex;
+        flex-direction: row;
+        gap: 5px;
+    }
+    h2{
+        color:#120323
+    }
+    main{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    
+    main figure img{
+        border: solid 5px #1D3746;
+        width: 500px;
+    }
+    figcaption{
+    
+        margin: 30px;
+    }
+}
+  
+
+
     
   
     
